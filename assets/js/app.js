@@ -28,7 +28,7 @@ switch (true) {
     console.log('uitmuntend');
     break;
     default:
-    console.error('something went wrong')
+    console.error('iets ging verkeerd')
 }
 // opdracht 3
 const purchasedBook = true;
@@ -44,5 +44,5 @@ if (job == 'teacher' && purchasedBook == true && inTrain == true) {
 } else if (job =='teacher' && purchasedBook == false && inTrain == false) {
     console.log('but i have work to do');
 } else {
-    console.error('something went wrong');
+    console.error('iets ging verkeerd');
 }
